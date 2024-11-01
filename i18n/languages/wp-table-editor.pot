@@ -1,0 +1,788 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Table Editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 06:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
+"X-Domain: wp-table-editor"
+
+#: includes/admin/column_action.php:116
+msgid " Added"
+msgstr ""
+
+#: includes/admin/column_action.php:245
+msgid " Edited"
+msgstr ""
+
+#: includes/load.php:727
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: main.php:133
+msgid ""
+"- Be very careful with this and only click the button if you know what you "
+"are doing!"
+msgstr ""
+
+#: main.php:131
+msgid ""
+"- Uninstalling will permanently delete all tables and options from the "
+"database."
+msgstr ""
+
+#: main.php:132
+msgid ""
+"- You will manually need to remove the plugin&#8217;s files from the plugin "
+"folder afterwards."
+msgstr ""
+
+#: includes/load.php:735
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: includes/load.php:736
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: includes/load.php:703
+msgid "Access Restriction"
+msgstr ""
+
+#: includes/admin/column.php:48 includes/admin/row.php:88
+#: includes/admin/row.php:196 includes/admin/table.php:40
+msgid "Active"
+msgstr ""
+
+#: includes/load.php:710 includes/admin/column.php:61
+msgid "Add Column"
+msgstr ""
+
+#: includes/load.php:717 includes/admin/row.php:103 includes/admin/row.php:211
+msgid "Add Row"
+msgstr ""
+
+#: includes/load.php:701 includes/admin/table.php:53
+msgid "Add Table"
+msgstr ""
+
+#: includes/load.php:699 includes/admin/column.php:35
+#: includes/admin/column.php:277
+msgid "Align"
+msgstr ""
+
+#: includes/admin/table.php:13
+msgid "All Tables"
+msgstr ""
+
+#: includes/admin/column.php:285
+msgid "All text in the cells is on a single line"
+msgstr ""
+
+#: includes/admin/table.php:186
+msgid "API Key"
+msgstr ""
+
+#: includes/admin/import.php:31
+msgid "Append rows to existing table"
+msgstr ""
+
+#: includes/load.php:713
+msgid "Are you sure you want to change the order of this column?"
+msgstr ""
+
+#: includes/load.php:720
+msgid "Are you sure you want to change the order of this row?"
+msgstr ""
+
+#: includes/load.php:706
+msgid "Are you sure you want to change the order of this table?"
+msgstr ""
+
+#: includes/load.php:712
+msgid "Are you sure you want to change the status of this column?"
+msgstr ""
+
+#: includes/load.php:719
+msgid "Are you sure you want to change the status of this row?"
+msgstr ""
+
+#: includes/load.php:705
+msgid "Are you sure you want to change the status of this table?"
+msgstr ""
+
+#: includes/load.php:716
+msgid "Are you sure you want to delete this column?"
+msgstr ""
+
+#: includes/load.php:723
+msgid "Are you sure you want to delete this row?"
+msgstr ""
+
+#: includes/load.php:709
+msgid "Are you sure you want to delete this table?"
+msgstr ""
+
+#: includes/load.php:715
+msgid "Are you sure you want to duplicate this column?"
+msgstr ""
+
+#: includes/load.php:722
+msgid "Are you sure you want to duplicate this row?"
+msgstr ""
+
+#: includes/load.php:708
+msgid "Are you sure you want to duplicate this table?"
+msgstr ""
+
+#: includes/admin/row.php:91 includes/admin/row.php:198
+msgid "Are you sure you want to export this table?"
+msgstr ""
+
+#: includes/admin/table.php:28
+msgid "Author"
+msgstr ""
+
+#: includes/admin/column.php:251
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/table.php:348
+msgid "Body Font Family"
+msgstr ""
+
+#: includes/admin/table.php:344
+msgid "Body Font Size"
+msgstr ""
+
+#: includes/admin/table.php:368
+msgid "Body Font Style"
+msgstr ""
+
+#: includes/admin/table.php:354
+msgid "Body Font Weight"
+msgstr ""
+
+#: includes/admin/table.php:243
+msgid "Border"
+msgstr ""
+
+#: includes/admin/table.php:442
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/admin/table.php:449
+msgid "Button Font Color"
+msgstr ""
+
+#: includes/admin/table.php:127
+msgid "Categories ID"
+msgstr ""
+
+#: includes/admin/column_action.php:290 includes/admin/table_action.php:233
+msgid "Changes have been saved."
+msgstr ""
+
+#: includes/admin/column_action.php:116 includes/admin/column_action.php:245
+msgid "Column "
+msgstr ""
+
+#: includes/admin/column_action.php:358
+msgid "Column Copied"
+msgstr ""
+
+#: includes/admin/column_action.php:302 includes/admin/column_action.php:373
+msgid "Column has been Deleted"
+msgstr ""
+
+#: includes/admin/column.php:30 includes/admin/column.php:66
+#: includes/admin/column.php:222
+msgid "Column Name"
+msgstr ""
+
+#: includes/admin/row.php:129 includes/admin/row.php:237
+msgid "Column Order"
+msgstr ""
+
+#: includes/load.php:714
+msgid "Column order has been updated"
+msgstr ""
+
+#: includes/admin/column_action.php:220 includes/admin/column_action.php:316
+#: includes/admin/column_action.php:330
+msgid "Column status change to "
+msgstr ""
+
+#: includes/admin/column.php:121 includes/admin/column.php:128
+#: includes/admin/column.php:135 includes/admin/column.php:142
+#: includes/admin/column.php:149 includes/admin/column.php:156
+#: includes/admin/column.php:163
+msgid "Column Type"
+msgstr ""
+
+#: includes/load.php:737
+msgid "Column Visibility"
+msgstr ""
+
+#: includes/admin/column.php:196
+msgid "Create a drop-down list"
+msgstr ""
+
+#: main.php:114
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/option.php:22
+msgid "Custom CSS updated successfully."
+msgstr ""
+
+#: includes/admin/column.php:184
+msgid "Custom Filter"
+msgstr ""
+
+#: includes/load.php:744
+msgid "Data Successfully Imported"
+msgstr ""
+
+#: includes/admin/table.php:180
+msgid "dataSrc"
+msgstr ""
+
+#: includes/admin/column.php:42 includes/admin/row.php:65
+#: includes/admin/row.php:82 includes/admin/table.php:34
+msgid "Delete"
+msgstr ""
+
+#: main.php:136
+msgid "Do you really want to delete all data?"
+msgstr ""
+
+#: includes/admin/column.php:50 includes/admin/row.php:90
+#: includes/admin/table.php:42
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/column.php:192
+msgid "Dynamic Field"
+msgstr ""
+
+#: includes/admin/column.php:40 includes/admin/row.php:64
+#: includes/admin/row.php:81 includes/admin/row.php:173
+#: includes/admin/row.php:189 includes/admin/table.php:32
+msgid "Edit"
+msgstr ""
+
+#: includes/load.php:711
+msgid "Edit Column"
+msgstr ""
+
+#: includes/load.php:718
+msgid "Edit Row"
+msgstr ""
+
+#: includes/load.php:704 includes/admin/column.php:217
+#: includes/admin/table.php:223
+msgid "Edit Style"
+msgstr ""
+
+#: includes/load.php:702
+msgid "Edit Table"
+msgstr ""
+
+#: includes/admin/function.php:23 includes/admin/function.php:28
+msgid "Error connecting to filesystem"
+msgstr ""
+
+#: includes/load.php:745
+msgid "Error occured. Please try again!"
+msgstr ""
+
+#: includes/admin/table.php:394
+msgid "Even Rows Background Color"
+msgstr ""
+
+#: includes/admin/table.php:410
+msgid "Even Rows Font Color"
+msgstr ""
+
+#: includes/admin/table.php:426
+msgid "Even Rows Link Color"
+msgstr ""
+
+#: includes/load.php:738 includes/admin/row.php:91 includes/admin/row.php:198
+msgid "Export"
+msgstr ""
+
+#: includes/admin/upload_action.php:80
+msgid ""
+"File format not supported. Put this code in wp-config.php file. define( "
+"\"ALLOW_UNFILTERED_UPLOADS\", true );"
+msgstr ""
+
+#: includes/admin/column.php:31 includes/admin/column.php:71
+msgid "Filter"
+msgstr ""
+
+#: includes/load.php:731
+msgid "First"
+msgstr ""
+
+#: includes/admin/table.php:167
+msgid "Fixed ordering"
+msgstr ""
+
+#: includes/admin/column.php:258
+msgid "Font Color"
+msgstr ""
+
+#: includes/admin/table.php:272
+msgid "Font Family"
+msgstr ""
+
+#: includes/admin/table.php:268
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/column.php:241
+msgid "Font Style"
+msgstr ""
+
+#: includes/admin/column.php:227
+msgid "Font Weight"
+msgstr ""
+
+#: includes/admin/option.php:33
+msgid "Get Pro"
+msgstr ""
+
+#: includes/admin/table.php:190
+msgid "Google Sheet Id"
+msgstr ""
+
+#: includes/admin/table.php:312
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/admin/table.php:319
+msgid "Header Font Color"
+msgstr ""
+
+#: includes/admin/table.php:282
+msgid "Header Font Family"
+msgstr ""
+
+#: includes/admin/table.php:278
+msgid "Header Font Size"
+msgstr ""
+
+#: includes/admin/table.php:302
+msgid "Header Font Style"
+msgstr ""
+
+#: includes/admin/table.php:288
+msgid "Header Font Weight"
+msgstr ""
+
+#: includes/admin/table.php:328
+msgid "Header Link Color"
+msgstr ""
+
+#: includes/admin/table.php:335
+msgid "Header Sorting Color"
+msgstr ""
+
+#: includes/admin/column.php:33 includes/admin/column.php:88
+msgid "Hidden"
+msgstr ""
+
+#: includes/admin/table.php:252
+msgid "Hide Thead"
+msgstr ""
+
+#: includes/admin/table.php:378
+msgid "Highlight a row when hovered over"
+msgstr ""
+
+#: includes/admin/table.php:385
+msgid "Highlight the column being ordering upon"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wptableeditor.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wptableeditor.com/documentation/"
+msgstr ""
+
+#: includes/admin/import.php:13
+msgid "Import from a CSV, XLS, XLSX, JSON File or Database"
+msgstr ""
+
+#: includes/admin/column.php:49 includes/admin/row.php:89
+#: includes/admin/row.php:197 includes/admin/table.php:41
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/upload_action.php:76 includes/admin/upload_action.php:109
+msgid "Incorrect JSON format"
+msgstr ""
+
+#: includes/admin/table.php:176
+msgid "JSON url"
+msgstr ""
+
+#: includes/load.php:732
+msgid "Last"
+msgstr ""
+
+#: includes/load.php:728
+msgid "Loading..."
+msgstr ""
+
+#: includes/admin/table.php:151
+msgid "Maximum number of rows"
+msgstr ""
+
+#: includes/admin/column.php:271
+msgid "Min Width(px)"
+msgstr ""
+
+#: includes/load.php:733
+msgid "Next"
+msgstr ""
+
+#: includes/load.php:724
+msgid "No data available in table"
+msgstr ""
+
+#: includes/load.php:730
+msgid "No matching records found"
+msgstr ""
+
+#: includes/admin/table.php:203
+msgid "Note"
+msgstr ""
+
+#: includes/admin/import.php:35 includes/admin/table.php:63
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/admin/table.php:401
+msgid "Odd Rows Background Color"
+msgstr ""
+
+#: includes/admin/table.php:417
+msgid "Odd Rows Font Color"
+msgstr ""
+
+#: includes/admin/table.php:433
+msgid "Odd Rows Link Color"
+msgstr ""
+
+#: includes/admin/upload_action.php:84
+msgid "Only CSV, XLS, XLSX or JSON file format is allowed"
+msgstr ""
+
+#: includes/admin/column.php:104
+msgid "Orderable"
+msgstr ""
+
+#: includes/admin/table.php:105
+msgid "Page Length"
+msgstr ""
+
+#: includes/admin/table.php:131
+msgid "Pagination"
+msgstr ""
+
+#: includes/admin/table.php:98
+msgid "Paging"
+msgstr ""
+
+#: includes/public/shortcode.php:344
+msgid "Please enter the identifier of the table."
+msgstr ""
+
+#: includes/load.php:700
+msgid "Please Select at least one checkbox!"
+msgstr ""
+
+#: includes/admin/upload_action.php:87
+msgid "Please Select File"
+msgstr ""
+
+#: includes/admin/column.php:78
+msgid "Position"
+msgstr ""
+
+#: includes/load.php:734
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/column.php:37
+msgid "Priority"
+msgstr ""
+
+#: includes/load.php:695
+msgid "Pro"
+msgstr ""
+
+#: includes/admin/table.php:198
+msgid "Range"
+msgstr ""
+
+#: includes/admin/import.php:30
+msgid "Replace existing table"
+msgstr ""
+
+#: includes/load.php:696
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/table.php:84
+msgid "Responsive"
+msgstr ""
+
+#: includes/admin/table.php:259
+msgid "Responsive Type"
+msgstr ""
+
+#: includes/admin/row_action.php:155
+msgid "Row Added"
+msgstr ""
+
+#: includes/admin/row_action.php:258
+msgid "Row Copied"
+msgstr ""
+
+#: includes/admin/post_action.php:120 includes/admin/row_action.php:187
+#: includes/admin/woo_action.php:115 includes/admin/woo_order.php:115
+msgid "Row Edited"
+msgstr ""
+
+#: includes/admin/row_action.php:207 includes/admin/row_action.php:267
+msgid "Row has been Deleted"
+msgstr ""
+
+#: includes/load.php:721 includes/admin/post_action.php:186
+#: includes/admin/woo_action.php:181 includes/admin/woo_order.php:181
+msgid "Row order has been updated"
+msgstr ""
+
+#: includes/admin/post_action.php:137 includes/admin/post_action.php:154
+#: includes/admin/post_action.php:171 includes/admin/row_action.php:201
+#: includes/admin/row_action.php:224 includes/admin/row_action.php:241
+#: includes/admin/woo_action.php:132 includes/admin/woo_action.php:149
+#: includes/admin/woo_action.php:166 includes/admin/woo_order.php:132
+#: includes/admin/woo_order.php:149 includes/admin/woo_order.php:166
+msgid "Row status change to "
+msgstr ""
+
+#: includes/admin/table.php:92
+msgid "scrollY"
+msgstr ""
+
+#: includes/admin/column.php:32
+msgid "Search"
+msgstr ""
+
+#: includes/load.php:740
+msgid "Search Builder"
+msgstr ""
+
+#: includes/load.php:741
+msgid "Search Panes"
+msgstr ""
+
+#: includes/load.php:729
+msgid "Search..."
+msgstr ""
+
+#: includes/admin/column.php:111
+msgid "Searchable"
+msgstr ""
+
+#: includes/load.php:739 includes/admin/import.php:29
+#: includes/admin/import.php:47 includes/admin/import.php:50
+#: includes/admin/table.php:69
+msgid "Select"
+msgstr ""
+
+#: includes/admin/table.php:144
+msgid "Server-side"
+msgstr ""
+
+#: includes/admin/table.php:194
+msgid "Sheet Name"
+msgstr ""
+
+#: includes/admin/table.php:26
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/table.php:118
+msgid "Show Export"
+msgstr ""
+
+#: includes/admin/table.php:111
+msgid "Show Footer"
+msgstr ""
+
+#: includes/load.php:726
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: includes/load.php:725
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: includes/admin/function.php:51 includes/admin/function.php:76
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/table.php:157
+msgid "Sorting Column/Type"
+msgstr ""
+
+#: includes/admin/table.php:27
+msgid "Source"
+msgstr ""
+
+#: includes/admin/import.php:39 includes/admin/table.php:67
+msgid "Source Type"
+msgstr ""
+
+#: includes/load.php:698 includes/admin/column.php:39 includes/admin/row.php:63
+#: includes/admin/row.php:80 includes/admin/row.php:172
+#: includes/admin/row.php:188 includes/admin/table.php:30
+msgid "Status"
+msgstr ""
+
+#: includes/admin/column.php:41 includes/admin/table.php:33
+msgid "Style"
+msgstr ""
+
+#: includes/admin/table_action.php:315
+msgid "Table Copied"
+msgstr ""
+
+#: includes/admin/table_action.php:255 includes/admin/table_action.php:328
+msgid "Table Deleted"
+msgstr ""
+
+#. Name of the plugin
+msgid "Table Editor"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Table Editor is a WordPress plugin used to quickly create tables from Excel, "
+"CSV, JSON and other data sources. Allows you to create beautiful sortable "
+"and responsive tables inside your posts, pages, custom post types or widget "
+"area."
+msgstr ""
+
+#: includes/admin/table.php:25 includes/admin/table.php:58
+#: includes/admin/table.php:228
+msgid "Table Name"
+msgstr ""
+
+#: includes/load.php:707
+msgid "Table order has been updated"
+msgstr ""
+
+#: includes/admin/table_action.php:246 includes/admin/table_action.php:268
+#: includes/admin/table_action.php:281
+msgid "Table status change to "
+msgstr ""
+
+#: includes/admin/column_action.php:273
+msgid "The column was saved successfully."
+msgstr ""
+
+#: includes/public/shortcode.php:581
+msgid "The ID of this shortcode has been disabled."
+msgstr ""
+
+#: includes/admin/column_action.php:87 includes/admin/column_action.php:227
+#: includes/admin/table_action.php:90 includes/admin/table_action.php:186
+msgid "The name has already been taken or invalid"
+msgstr ""
+
+#: includes/load.php:746
+msgid ""
+"The number of columns specified does not match the number of columns in the "
+"import file."
+msgstr ""
+
+#: includes/admin/table_action.php:132
+msgid "The table was added successfully."
+msgstr ""
+
+#: includes/admin/table_action.php:196 includes/admin/table_action.php:217
+msgid "The table was saved successfully."
+msgstr ""
+
+#: includes/public/shortcode.php:350
+msgid "There is no table associated with this shortcode."
+msgstr ""
+
+#: includes/load.php:743
+msgid ""
+"This action is not reversable. Click Ok to continue. Click Cancel to abort."
+msgstr ""
+
+#: includes/load.php:742
+msgid "This is a required field!"
+msgstr ""
+
+#: includes/admin/column.php:95
+msgid "Total for column"
+msgstr ""
+
+#: includes/load.php:697 includes/admin/column.php:36
+#: includes/admin/import.php:27
+msgid "Type"
+msgstr ""
+
+#: main.php:128 main.php:136
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin/table.php:31
+msgid "View"
+msgstr ""
+
+#: includes/admin/table.php:233
+msgid "Width"
+msgstr ""
+
+#: includes/admin/column.php:34 includes/admin/column.php:267
+msgid "Width(%)"
+msgstr ""
+
+#. Author of the plugin
+msgid "wptableeditor.com"
+msgstr ""
+
+#: includes/public/shortcode.php:364
+msgid "You can't use more than 100 shortcodes."
+msgstr ""
+
+#: includes/public/shortcode.php:356
+msgid "You do not have sufficient permissions to access this content."
+msgstr ""
+
+#: includes/load.php:23
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""

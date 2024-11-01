@@ -1,0 +1,464 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.xscontainer {
+	padding: 10px 0px;
+	margin: 0px;
+	text-transform: none !important;
+	color: #3a3a3a;
+	box-sizing: border-box;
+}
+.xscontainer .xs-d-none, .modal-xs .xs-d-none{
+	display:none;
+}
+/*bootstrap*/
+.xscontainer .text-left {
+    text-align: left !important;
+}
+.xscontainer .text-center {
+    text-align: center !important;
+}
+.xscontainer .text-right {
+    text-align: right !important;
+}
+.xscontainer .panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    margin: 0px;
+	padding: 0px;
+}
+.xscontainer .panel-default {
+    border-color: #ddd;
+}
+.xscontainer .form-select, .xscontainer .form-control {
+    min-height: 34px;
+}
+/*dataTables*/
+.xscontainer .dataTables_wrapper {
+	padding: 10px;
+	background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+	border-color: #ddd;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    margin-bottom: 0px;
+}
+.xscontainer .dataTables_wrapper p {
+    margin-bottom: unset !important;
+}
+.xscontainer .dataTables_wrapper td {
+	background: unset;
+}
+.xscontainer .dataTables_wrapper th {
+	font-size: inherit;
+	text-transform: none !important;
+}
+.xscontainer .dataTables_wrapper label {
+    display: inline-flex;
+    align-items: center;
+	width: unset;
+	max-width: 100%;
+}
+.xscontainer .dataTables_wrapper ::placeholder {
+	font-family: inherit;
+	font-size: inherit;
+}
+.xscontainer .dataTables_wrapper thead, tfoot {
+	background-color: unset;
+	color: unset;
+}
+.xscontainer .dataTables_wrapper a[href]:after {
+	content: "";
+}
+.xscontainer .dataTables_wrapper .dataTables_length {
+	text-align: left;
+	display: inline-flex !important;
+	align-items: center;
+	height: 45px;
+}
+.xscontainer .dataTables_wrapper .dataTables_length select {
+	font-family: inherit;
+	font-size: inherit;
+	text-transform: none !important;
+	height: 40px;
+	min-height: 40px;
+	min-width:fit-content;
+	width: 100%;
+    margin: 0px 5px 5px 0px !important;
+    padding: 0px 15px 0px 5px !important;
+	border-radius: 2px;
+	background-image:none !important;
+	-webkit-appearance: auto !important;
+	display: flex !important;
+	flex-wrap: wrap;
+	--bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.xscontainer .dataTables_wrapper .dt-buttons {
+	float: left;
+	padding: 0px !important;
+	margin: 0px !important;
+	height: 45px !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_filter {
+	margin:0;
+	height:45px;
+	font-family:inherit !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_filter input {
+	height: 40px;
+	min-height: 40px;
+	text-align: left;
+	font-family:inherit !important;
+	font-size:inherit !important;
+	margin:0 0 5px 0 !important;
+	border-radius: 2px;
+	width: 100% !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_length label, .xscontainer .dataTables_wrapper .dataTables_filter label {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family:inherit !important;
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+}
+.xscontainer .dataTables_wrapper .dataTables_filter label {
+	width: 100% !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_processing {
+	font-family:inherit !important;
+	vertical-align: middle !important;
+}
+.xscontainer .dataTables_wrapper .table {
+    width: 100%;
+    max-width: 100%;
+}
+.xscontainer .dataTables_wrapper table.dataTable tbody th, table.dataTable tbody td {
+    vertical-align: middle !important;
+	padding: 8px 10px !important;
+}
+.xscontainer .dataTables_wrapper table, td, th {
+    border: 1px solid rgba(0,0,0,.1) !important;
+	border-collapse: unset !important;
+	margin: 0 !important;
+}
+.xscontainer .dataTables_wrapper td, th {
+    border-width: 0 1px 1px 0 !important;
+}
+.xscontainer .dataTables_wrapper img {
+    vertical-align: middle !important;
+}
+.xscontainer table.dataTable thead .sorting, .xscontainer table.dataTable thead .sorting_asc, .xscontainer table.dataTable thead .sorting_desc {
+    background-image: none !important;
+	padding: 10px !important;
+}
+.xscontainer table.dataTable thead th, table.dataTable thead td, .xscontainer table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 10px !important;
+	border-width: 0 1px 1px 0 !important;
+	vertical-align: middle !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody table {
+	border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody table.dataTable thead th {
+	border-top: 0 !important;
+    border-bottom: 0 !important;
+	padding: 0 10px 0 10px !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody table.dataTable tfoot th {
+	border-top: 0 !important;
+    border-bottom: 0 !important;
+	padding: 0 10px 0 10px !important;
+}
+.xscontainer table.dataTable thead th, table.dataTable tfoot th {
+    font-weight: bold;
+}
+.xscontainer table.dataTable tfoot input[type=email], 
+.xscontainer table.dataTable tfoot input[type=number], 
+.xscontainer table.dataTable tfoot input[type=password], 
+.xscontainer table.dataTable tfoot input[type=search], 
+.xscontainer table.dataTable tfoot input[type=tel], 
+.xscontainer table.dataTable tfoot input[type=text], 
+.xscontainer table.dataTable tfoot input[type=url], 
+.xscontainer table.dataTable tfoot select {
+	background: #fafafa;
+	min-width: max-content;
+	width: 100% !important;
+	min-height: 40px;
+	height:40px !important;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 5px !important;
+	border: 1px solid #ccc;
+	border-radius: 2px !important;
+	margin: 0 !important;
+}
+.xscontainer .dataTables_wrapper tfoot select {
+	background-image:none !important;
+	-webkit-appearance: auto !important;
+	width: fit-content !important;
+}
+.xscontainer .dataTables_wrapper tfoot input {
+	min-height: 40px;
+}
+.xscontainer .dataTables_wrapper .dataTables_empty {
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_info {
+	font-size: inherit;
+	font-family:inherit !important;
+}
+.xscontainer .dataTables_wrapper .dataTables_paginate {
+	font-size: inherit;
+	font-family:inherit !important;
+}
+.xscontainer .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control {
+    padding-left: 30px !important;
+}
+.xscontainer .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    height: 15px !important;
+    width: 15px !important;
+	line-height: 16px !important;
+}
+.xscontainer .dataTables_wrapper tbody button {
+	width: max-content;
+}
+table.dataTable thead>tr>th.sorting {
+	padding-right: 10px !important;
+}
+/*button&search*/
+.xscontainer div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
+    padding-right: 25px !important;
+	font-family: inherit;
+	width: fit-content !important;
+	max-width: 100% !important;
+	border-radius:0px !important;
+	height: 40px !important;
+}
+.xscontainer div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont input.dtsb-value {
+    height: 40px !important;
+}
+.xscontainer div.dtsb-searchBuilder button.dtsb-button, .xscontainer div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dtsp-topRow div.dtsp-searchCont input.dtsp-search {
+    font-family: inherit;
+	font-size: inherit;
+	text-transform: none;
+	height: 40px !important;
+	padding: 5px 15px !important;
+	font-weight: 400 !important;
+}
+.xscontainer div.dtb-popover-close {
+    width: 30px !important;
+    height: 30px !important;
+}
+.xscontainer div.dt-button-collection.dtb-collection-closeable div.dtsb-titleRow {
+    margin-top: 8px !important;
+}
+.xscontainer div.dtsp-panesContainer button.dtsp-clearAll, div.dtsp-panesContainer button.dtsp-collapseAll, div.dtsp-panesContainer button.dtsp-showAll {
+    color: #333;
+}
+.xscontainer div.dtsp-panesContainer button.dtsp-disabledButton {
+    color: #7c7c7c;
+}
+.xscontainer div.dtsp-panesContainer button.dtsp-clearAll, div.dtsp-panesContainer button.dtsp-collapseAll, div.dtsp-panesContainer button.dtsp-showAll {
+    font-family: inherit;
+	font-size: inherit;
+	text-transform: none;
+}
+.xscontainer button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+	font-family: inherit;
+	font-size: inherit;
+	text-transform: none !important;
+    line-height: unset;
+    height: 40px;
+	min-height: 40px;
+	font-weight: unset;
+	padding: 4px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 2px;
+	float: left;
+	margin:0 2.5px 5px 2.5px !important;
+}
+.xscontainer div.dt-button-collection {
+    padding: 2px 4px !important;
+}
+.xscontainer div.dt-button-collection button.dt-button, div.dt-button-collection div.dt-button, div.dt-button-collection a.dt-button {
+    margin: 2px 0 !important;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/*woocommerce*/
+.xscontainer .dataTables_wrapper .star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+.xscontainer .dataTables_wrapper .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    color: #ffc107;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.xscontainer .dataTables_wrapper .star-rating::before {
+    content: "sssss";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.xscontainer .dataTables_wrapper .star-rating span::before {
+    content: "SSSSS";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.xscontainer .dataTables_wrapper .woocommerce a.added_to_cart {
+    display: none;
+}
+.xscontainer .dataTables_wrapper .add_to_cart_inline input[type=number]{
+	min-width: 65px;
+	max-width: 80px;
+	height: 40px;
+}
+.xscontainer .dataTables_wrapper .add_to_cart_inline input[type=number]::-webkit-inner-spin-button {
+	opacity: 1;
+}
+/* player */
+.xscontainer .xs_player_container {
+	display: inline;
+}
+.xscontainer .xs_player_container .myButton_play {
+	background: transparent url(../images/play-button.png) no-repeat !important;
+	vertical-align: middle;
+	cursor: pointer !important;
+	width: 32px !important;
+	height: 32px !important;
+	border: none !important;
+	position: relative;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.xscontainer .xs_player_container .myButton_stop {
+	background: transparent url(../images/pause-button.png) no-repeat !important;
+	vertical-align: middle;
+	cursor: pointer !important;
+	width: 32px !important;
+	height: 32px !important;
+	border: none !important;
+	position: relative;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/*screen*/
+@media screen and (max-width: 640px){
+	.xscontainer .dataTables_wrapper {
+		padding: 5px;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_length {
+		display: inline !important;
+		margin-bottom: unset;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_length select {
+		width: 100%;
+		max-width:100%;
+		margin-right: 0px !important;
+	}
+	.xscontainer .dataTables_wrapper label input {
+		margin: 0;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_length label {
+		width: 100%;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_filter {
+		margin-bottom: 5px;
+		margin-top: unset;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_filter label {
+		width: 100% !important;
+	}
+	.xscontainer .dataTables_wrapper .dataTables_filter input {
+		width: 100% !important;
+	}
+	.xscontainer button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+		float: unset;
+		margin-right: 1.5px;
+	}
+	.xscontainer .dataTables_wrapper .dt-buttons {
+		height: auto !important;
+	}
+}
+/*accordion*/
+.health-check-accordion-panel, .privacy-settings-accordion-panel {
+    border-top: 1px solid #c3c4c7;
+	padding: 5px 15px;
+}
+.health-check-accordion-trigger, .privacy-settings-accordion-trigger {
+    color: inherit !important;
+}
+/*child rows*/
+.xscontainer .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.xscontainer .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th.dtr-control:before {
+    content: "-" !important;
+    background-color: #d33333;
+}
+.xscontainer .dataTables_wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    top: 50%;
+    left: 5px;
+    height: 1em;
+    width: 1em;
+    margin-top: -9px;
+    display: block;
+    position: absolute;
+    color: white !important;
+    border: 0.15em solid white;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: "Courier New",Courier,monospace;
+    line-height: 1em;
+    content: "+" !important;
+    background-color: #31b131;
+}
+.xscontainer .dataTables_wrapper div.dt-buttons>.dt-button, div.dt-buttons>div.dt-button-split .dt-button {
+    font-size: inherit;
+    line-height: 1.6em;
+    color: inherit;
+	background-color: unset;
+	background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	font-weight: unset;
+	border-radius: 2px;
+}
+.xscontainer .dataTables_wrapper table.dataTable>tbody>tr.child ul.dtr-details>li {
+    text-align: left !important;
+}
+/*child rows*/
+.xscontainer .dataTables_wrapper div.dt-button-collection .dt-button:hover:not(.disabled) {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.img-thumbnail {
+    padding: 0.25rem !important;
+    background-color: #fff !important;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    max-width: 100%;
+    height: auto;
+}

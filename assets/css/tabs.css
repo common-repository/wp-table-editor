@@ -1,0 +1,178 @@
+.xscontainer_tab {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+/* Nav */
+.xscontainer_tab nav {
+	text-align: left;
+	font-weight: 600;
+	font-style: normal;
+}
+.xscontainer_tab nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+.xscontainer_tab nav ul li {
+	border: 1px solid #c3c4c7;
+	border-bottom: none;
+	margin-left: 0.5em !important;
+	display: block;
+	float: left;
+	position: relative;
+	background-color: #eee;
+	border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+	width: fit-content;
+	margin-bottom: 5px;
+}
+.xscontainer_tab nav li.tab-current {
+	border: 1px solid #cccccc;
+	border-bottom: none;
+	z-index: 100;
+	background-color: #fff;
+}
+.xscontainer_tab nav li.tab-current:before,
+.xscontainer_tab nav li.tab-current:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	right: 100%;
+	bottom: 0;
+	width: 1000px;
+	background: #dee2e6;
+}
+.xscontainer_tab nav li.tab-current:after {
+	right: auto;
+	left: 100%;
+	width: 4000px;
+}
+.xscontainer_tab nav a {
+	color: #444;
+	display: block;
+	line-height: 2.5;
+	padding: 0 15px;
+	white-space: nowrap;
+	text-decoration: none !important;
+}
+.xscontainer_tab nav a:hover {
+	color: #444;
+	background-color: #fff;
+}
+.xscontainer_tab nav li.tab-current a {
+	color: #444;
+}
+/* Content */
+.xscontainer_content section {
+	padding: 0;
+	display: none;
+	margin: 0 auto;
+}
+.xscontainer_content section:before,
+.xscontainer_content section:after {
+	content: '';
+	display: table;
+}
+.xscontainer_content section:after {
+	clear: both;
+}
+/* Fallback example */
+.no-js .xscontainer_content section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #47a3da;
+}
+.xscontainer_content section.content-current {
+	display: block;
+}
+/*xscontainer_tabs*/
+.xscontainer_tabs {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	border: 1px solid transparent;
+	border-color: #ddd;
+	display: flex;
+}
+
+.xscontainer_tabs > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #eee;
+}
+
+.xscontainer_tabs > ul li {
+	display: block;
+}
+
+.xscontainer_tabs > ul li:not(:last-child) {
+	border-bottom: 1px solid #5555;
+}
+
+.xscontainer_tabs > ul li a,
+.xscontainer_tabs > ul li a:visited {
+	display: flex;
+	border-bottom: none;
+	text-decoration: none;
+	background-color: #eee;
+	color: #444;
+	padding: 10px;
+	transition: all 0.2s ease-in-out;
+	word-wrap: break-word;
+}
+
+.xscontainer_tabs > ul li a:hover,
+.xscontainer_tabs > ul li a:focus,
+.xscontainer_tabs > ul li a:active {
+	border-bottom: none;
+	outline: 0;
+}
+
+.xscontainer_tabs > ul li a.active {
+	background-color: #fff;
+	color: #0067b8;
+}
+
+.xscontainer_tabs > ul li a:hover:not(.active) {
+	color: #0067b8;
+}
+
+.xscontainer_tabs > ul li a > span {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.xscontainer_tabs > ul li a > span.tab-label {
+	display: none;
+}
+
+.xscontainer_tabs section {
+	width: 80%;
+	background-color: #fff;
+	padding: 0 10px 10px;
+	margin: 0 !important;
+	display: none;
+	word-wrap: break-word;
+}
+.xscontainer_tabs section > * {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.2s, transform 0.2s;
+}
+
+.xscontainer_tabs section.active {
+	display: block;
+}
+.xscontainer_tabs section.active-content > * {
+	opacity: 1;
+	transform: translateY(0);
+}

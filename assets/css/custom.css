@@ -1,0 +1,22 @@
+.CodeMirror {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    margin-right: 0 !important;
+}
+
+.CodeMirror div {
+    margin-right: 0 !important;
+}
+
+.CodeMirror .CodeMirror-gutters {
+    padding-left: 8px;
+}
+
+#xs_template>div {
+    margin-right: unset;
+}
+
+#xs_template .CodeMirror, #xs_template textarea {
+    min-height: 20vh;
+	height: 40vh;
+}
